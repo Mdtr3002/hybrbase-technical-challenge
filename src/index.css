@@ -74,3 +74,7 @@ code {
   font-family: 'Roboto',source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
