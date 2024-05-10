@@ -58,7 +58,7 @@ const Homepage = () => {
   return (
     <div className='pt-[60px] pb-10 sm:pt-[80px] min-h-[100vh] sm:pb-[60px] md:pt-[100px] md:pb-[80px] lg:pt-[120px] lg:pb-[100px] xl:pt-[140px] xl:pb-[120px] 3xl:pt-[177px] 3xl:pb-[157px] bg-[#F2F2F2]'>
       <div className='w-full flex flex-col items-center space-y-10 md:space-y-[48px] xl:space-y-[52px] 2xl:space-y-[57px]'>
-        <h1 className='w-fit font-normal text-2xl sm:text-[32px] md:text-3xl lg:text-[44px] xl:text-[60px] 3xl:text-[77px] text-center leading-8 sm:leading-[40px] md:leading-[48px] lg:leading-[60px] xl:leading-[80px] 2xl:leading-[92.4px]'>
+        <h1 className='3xl:h-[183px] w-fit font-normal text-2xl sm:text-[32px] md:text-3xl lg:text-[44px] xl:text-[60px] 3xl:text-[77px] text-center leading-8 sm:leading-[40px] md:leading-[48px] lg:leading-[60px] xl:leading-[80px] 2xl:leading-[92.4px]'>
           Why people love to
           <br /> work with us
         </h1>
@@ -70,7 +70,7 @@ const Homepage = () => {
         ref={scrollRef}
         className='md:overflow-x-auto hide-scrollbar mt-[60px] md:mt-[80px] 2xl:mt-[100px]'
       >
-        <div className='md:px-[100px] lg:px-[140px] xl:px-[180px] 2xl:px-[220px] 3xl:px-[260px] flex flex-col mx-auto md:mx-0 md:flex-row space-y-5 md:space-y-0 md:space-x-10 w-fit'>
+        <div className='md:px-[100px] lg:px-[140px] xl:px-[180px] 2xl:px-[220px] 3xl:px-[260px] flex flex-col mx-auto md:mx-0 md:flex-row space-y-5 sm:space-y-7 md:space-y-0 md:space-x-10 w-fit'>
           {InfoCardContent.map((content, index) => (
             <InfoCard
               key={index}
